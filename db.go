@@ -22,7 +22,7 @@ const version = 2
 const magic uint32 = 0xED0CDAED
 
 // Default mmap size
-const defaultSize = 10 * 1024 * 1024 * 1024
+const defaultSize = 500 * 1024 * 1024
 
 // IgnoreNoSync specifies whether the NoSync field of a DB is ignored when
 // syncing changes to a file.  This is required as some operating systems,
